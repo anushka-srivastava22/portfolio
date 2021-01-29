@@ -259,6 +259,11 @@ img{
   display: flex;
   margin-bottom: 20px;
 }
+.q4
+{
+  display: flex;
+  margin-bottom: 20px;
+}
 
 .qualif__subtitle{
   margin-bottom: var(--mb-2);
@@ -276,6 +281,17 @@ img{
 {
   margin-left: 10px;
 }
+.button1{
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #fff;
+  padding: .75rem 2.5rem;
+  font-weight: var(--font-semi);
+  border-radius: 50px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
 @media screen and (min-width: 768px){
     body{
       margin: 0;
@@ -338,6 +354,23 @@ img{
     .about__img img{
       width: 300px;
     }
+    .button1
+    {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .q4 .course_container1
+    {
+      display: flex;
+      justify-content: space-around;
+      
+    }
+    .q4 .course_container2
+    {
+      display: flex;
+      justify-content: space-around;
+      
+    }
     .work__container{
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(2,1fr);
@@ -359,5 +392,6 @@ img{
     .home__img{
       right: 10%;
     }
+    
   }
   

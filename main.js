@@ -48,6 +48,7 @@ sr.reveal('.about__text',{delay: 400});
 sr.reveal('.qualif__icon',{ delay: 400}); 
 sr.reveal('.qualif__subtitle',{delay: 400}); 
 sr.reveal('.qualif__text',{delay: 400}); 
+sr.reveal('.button1',{delay: 200}); 
 
 /*SCROLL SKILLS*/
 sr.reveal('.skills__subtitle',{}); 
