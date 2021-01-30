@@ -290,8 +290,85 @@ img{
   border-radius: 50px;
   margin-top: 10px;
   margin-bottom: 20px;
+  
 }
-
+.button1:hover{
+  transform: scale(1.07);
+  box-shadow: 0 5px 15px rgb(5, 5, 5);
+  transition: 2s;
+}
+.w1
+{
+  display: flex;
+  margin-bottom: 20px;
+  width: 500px;
+  height: 520px;
+  border: black solid 2px;
+  padding: 6px;
+  border-radius: 50px;
+}
+.w2
+{
+  display: flex;
+  margin-bottom: 20px;
+  width: 500px;
+  height: 520px;
+  padding: 6px;
+  border: black solid 2px;
+  border-radius: 60px;
+}
+.work__subtitle{
+  margin-bottom: var(--mb-2);
+  margin-left:10px;
+}
+.work__icon{
+  width: max-content;
+  margin-bottom: var(--mb-2);
+  font-size: 1.5rem;
+  margin-left:10px;
+  margin-top: 15px;
+  color: var(--second-color);
+}
+.work__text
+{
+  margin-left: 10px;
+}
+.button2{
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #fff;
+  padding: .75rem 2.5rem;
+  font-weight: var(--font-semi);
+  border-radius: .5rem;
+  margin-top: 60px;
+}
+.button2:hover{
+  box-shadow: 0 10px 36px rgba(0,0,0,.15);
+}
+.button4{
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #fff;
+  padding: .75rem 2.5rem;
+  font-weight: var(--font-semi);
+  border-radius: .5rem;
+  margin-top: 20px;
+}
+.button4:hover{
+  box-shadow: 0 10px 36px rgba(0,0,0,.15);
+}
+.button3{
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #fff;
+  padding: .75rem 2.5rem;
+  font-weight: var(--font-semi);
+  border-radius: .5rem;
+  margin-top: 15px;
+}
+.button3:hover{
+  box-shadow: 0 10px 36px rgba(0,0,0,.15);
+}
 @media screen and (min-width: 768px){
     body{
       margin: 0;
@@ -372,9 +449,8 @@ img{
       
     }
     .work__container{
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(2,1fr);
-      column-gap: 2rem;
+      display: flex;
+      justify-content: space-around;
     }
     .contact__form{
       width: 360px;
