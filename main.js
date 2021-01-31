@@ -44,26 +44,28 @@ sr.reveal('.about__img',{});
 sr.reveal('.about__subtitle',{delay: 400}); 
 sr.reveal('.about__text',{delay: 400}); 
 
-/*SCROLL QUALIFICATIONS*/
-sr.reveal('.qualif__icon',{ delay: 400}); 
-sr.reveal('.qualif__subtitle',{delay: 400}); 
-sr.reveal('.qualif__text',{delay: 400}); 
-sr.reveal('.button1',{delay: 200}); 
-
-/*SCROLL SKILLS*/
-sr.reveal('.skills__subtitle',{}); 
-sr.reveal('.skills__text',{}); 
-sr.reveal('.skills__data',{interval: 200}); 
-sr.reveal('.skills__img',{delay: 600});
-
 /*SCROLL WORK*/
 sr.reveal('.w1',{delay: 200});
 sr.reveal('.w2',{delay: 200});
 sr.reveal('.work__subtitle',{delay: 400}); 
 sr.reveal('.work__text',{delay: 400});
-sr.reveal('.button2',{delay: 200});
-sr.reveal('.button3',{delay: 200});
-sr.reveal('.button4',{delay: 200});
+sr.reveal('.button1',{delay: 200});
+sr.reveal('.button1',{delay: 200});
+sr.reveal('.button1',{delay: 200});
+
+/*SCROLL QUALIFICATIONS*/
+sr.reveal('.qualif__icon',{ delay: 400}); 
+sr.reveal('.qualif__subtitle',{delay: 400}); 
+sr.reveal('.qualif__text',{delay: 400}); 
+sr.reveal('.button2',{delay: 200}); 
+
+/*SCROLL SKILLS*/
+sr.reveal('.skills__subtitle',{}); 
+sr.reveal('.skill_cont',{delay: 600});  
+sr.reveal('.skills__data',{interval: 200}); 
+sr.reveal('.skills__img',{delay: 600});
+
+
 
 /*SCROLL CONTACT*/
 sr.reveal('.contact__input',{interval: 200}); 

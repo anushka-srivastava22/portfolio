@@ -243,6 +243,47 @@ img{
   width: 200px;
   border-radius: .5rem;
 }
+/* ===== Work Experience =====*/
+.w1
+{
+  display: flex;
+  margin-bottom: 20px;
+}
+.w2
+{
+  display: flex;
+  margin-bottom: 20px;
+}
+.work__subtitle{
+  margin-bottom: var(--mb-2);
+  margin-left:10px;
+}
+.work__icon{
+  width: max-content;
+  margin-bottom: var(--mb-2);
+  font-size: 1.5rem;
+  margin-left:10px;
+  margin-top: 15px;
+  color: var(--second-color);
+}
+.work__text
+{
+  margin-left: 10px;
+}
+.button1
+{
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #fff;
+  padding: .75rem 2.5rem;
+  font-weight: var(--font-semi);
+  border-radius: .5rem;
+  margin-top: 20px;
+}
+.button1:hover
+{
+  box-shadow: 0 10px 36px rgba(0,0,0,.15);
+}
 /* ===== QUALIFICATIONS =====*/
 .q1
 {
@@ -281,7 +322,7 @@ img{
 {
   margin-left: 10px;
 }
-.button1{
+.button2{
   display: inline-block;
   background-color: var(--first-color);
   color: #fff;
@@ -292,138 +333,106 @@ img{
   margin-bottom: 20px;
   
 }
-.button1:hover{
+.button2:hover{
   transform: scale(1.07);
   box-shadow: 0 5px 15px rgb(5, 5, 5);
   transition: 2s;
 }
-.w1
+.skill_cont
 {
-  display: flex;
-  margin-bottom: 20px;
-  width: 500px;
-  height: 520px;
+  width: 250px;
+  height: 250px;
   border: black solid 2px;
-  padding: 6px;
-  border-radius: 50px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 30px;
+  justify-content: center;
+  margin-left: 50px;
+  margin-left: 15rem;
 }
-.w2
+
+.skills__subtitle
 {
-  display: flex;
-  margin-bottom: 20px;
-  width: 500px;
-  height: 520px;
-  padding: 6px;
-  border: black solid 2px;
-  border-radius: 60px;
-}
-.work__subtitle{
-  margin-bottom: var(--mb-2);
+  
   margin-left:10px;
+  margin-top: 40px;
 }
-.work__icon{
-  width: max-content;
-  margin-bottom: var(--mb-2);
-  font-size: 1.5rem;
-  margin-left:10px;
-  margin-top: 15px;
-  color: var(--second-color);
-}
-.work__text
+.skills__img
 {
-  margin-left: 10px;
+  margin-left: 45px;
 }
-.button2{
-  display: inline-block;
-  background-color: var(--first-color);
-  color: #fff;
-  padding: .75rem 2.5rem;
-  font-weight: var(--font-semi);
-  border-radius: .5rem;
-  margin-top: 60px;
-}
-.button2:hover{
-  box-shadow: 0 10px 36px rgba(0,0,0,.15);
-}
-.button4{
-  display: inline-block;
-  background-color: var(--first-color);
-  color: #fff;
-  padding: .75rem 2.5rem;
-  font-weight: var(--font-semi);
-  border-radius: .5rem;
-  margin-top: 20px;
-}
-.button4:hover{
-  box-shadow: 0 10px 36px rgba(0,0,0,.15);
-}
-.button3{
-  display: inline-block;
-  background-color: var(--first-color);
-  color: #fff;
-  padding: .75rem 2.5rem;
-  font-weight: var(--font-semi);
-  border-radius: .5rem;
-  margin-top: 15px;
-}
-.button3:hover{
-  box-shadow: 0 10px 36px rgba(0,0,0,.15);
-}
+
 @media screen and (min-width: 768px){
-    body{
+    body
+    {
       margin: 0;
     }
-    .section{
+    .section
+    {
       padding-top: 4rem;
       padding-bottom: 3rem;
     }
-    .section-title{
+    .section-title
+    {
       margin-bottom: var(--mb-6);
     }
-    .section-title::after{
+    .section-title::after
+    {
       width: 80px;
       top: 3rem;
     }
   
-    .nav{
+    .nav
+    {
       height: calc(var(--header-height) + 1rem);
     }
-    .nav__list{
+    .nav__list
+    {
       display: flex;
       padding-top: 0;
     }
-    .nav__item{
+    .nav__item
+    {
       margin-left: var(--mb-6);
       margin-bottom: 0;
     }
-    .nav__toggle{
+    .nav__toggle
+    {
       display: none;
     }
-    .nav__link{
+    .nav__link
+    {
       color: var(--second-color);
     }
   
-    .home{
+    .home
+    {
       height:800px;
     }
-    .home__data{
+    .home__data
+    {
       align-self: flex-end;
     }
-    .home__social{
+    .home__social
+    {
       padding-top: 0;
       padding-bottom: 2.5rem;
       flex-direction: row;
       align-self: flex-end;
     }
-    .home__social-icon{
+    .home__social-icon
+    {
       margin-bottom: 0;
       margin-right: var(--mb-4);
     }
-    .home__img{
+    .home__img
+    {
       margin-top: 470px;
     }
   
-    .about__container, .skills__container{
+    .about__container
+    {
       grid-template-columns: repeat(2,1fr);
       align-items: center;
       text-align: initial;
@@ -431,7 +440,7 @@ img{
     .about__img img{
       width: 300px;
     }
-    .button1
+    .button2
     {
       margin-left: 10px;
       margin-right: 10px;
@@ -448,7 +457,18 @@ img{
       justify-content: space-around;
       
     }
-    .work__container{
+    .skill1
+    {
+      display: flex;
+      justify-content: space-around;
+    }
+    .skill2
+    {
+      display: flex;
+      justify-content: space-around;
+    }
+    .skill3
+    {
       display: flex;
       justify-content: space-around;
     }
