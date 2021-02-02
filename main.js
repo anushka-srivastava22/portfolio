@@ -65,7 +65,19 @@ sr.reveal('.skill_cont',{delay: 600});
 sr.reveal('.skills__data',{interval: 200}); 
 sr.reveal('.skills__img',{delay: 600});
 
+/*SCROLL PROJECTS*/
+sr.reveal('.pro_img',{ delay: 400}); 
+sr.reveal('.pro__subtitle',{delay: 400}); 
+sr.reveal('.pro__text',{delay: 400}); 
+sr.reveal('.ip1',{delay: 400}); 
+sr.reveal('.button3',{delay: 200}); 
 
+/*SCROLL PROJECTS*/
+sr.reveal('.achieve1',{ delay: 400}); 
+sr.reveal('.achieve__title',{delay: 400}); 
+sr.reveal('.button4',{delay: 400}); 
+sr.reveal('.ip1',{delay: 400}); 
+sr.reveal('.button3',{delay: 200}); 
 
 /*SCROLL CONTACT*/
 sr.reveal('.contact__input',{interval: 200}); 
