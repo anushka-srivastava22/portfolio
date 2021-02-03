@@ -72,7 +72,7 @@ sr.reveal('.pro__text',{delay: 400});
 sr.reveal('.ip1',{delay: 400}); 
 sr.reveal('.button3',{delay: 200}); 
 
-/*SCROLL PROJECTS*/
+/*SCROLL ACHIEVEMENTS*/
 sr.reveal('.achieve1',{ delay: 400}); 
 sr.reveal('.achieve__title',{delay: 400}); 
 sr.reveal('.button4',{delay: 400}); 

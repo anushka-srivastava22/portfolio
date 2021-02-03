@@ -362,17 +362,29 @@ img{
   margin-top: 40px;
 }
 .pro__subtitle{
-  margin-top: 20px;
+  margin-top: 15px;
   margin-left:10px;
 }
 .ip1
 {
+  width: 300px;
+  height: 300px;
   margin-top: 20px;
-  border: solid black 2px;
+  border: solid white 2px;
   padding: 10px;
   text-align: center;
-}
+  margin-left: auto;
+  margin-right: auto;
 
+}
+.pro_img
+{
+  width: 300px;
+  height: 150px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .button3{
   display: inline-block;
   background-color: var(--first-color);
@@ -581,13 +593,24 @@ img{
     .p1
     {
       display: flex;
-      justify-content: space-around;  
+        
     }
     .p2
     {
       display: flex;
       justify-content: space-around;
       
+    }
+    .ip1
+    {
+      width: 700px;
+      height: 300px;
+    }
+    .pro_img
+    {
+      width: 600px;
+      height: 250px;
+      margin-top: 20px;
     }
     .achieve_cont1
     {
