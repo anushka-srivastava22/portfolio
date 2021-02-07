@@ -338,6 +338,7 @@ img{
   box-shadow: 0 5px 15px rgb(5, 5, 5);
   transition: 2s;
 }
+/* ===== SKILLS =====*/
 .skill_cont
 {
   width: 250px;
@@ -361,6 +362,7 @@ img{
   margin-left:10px;
   margin-top: 40px;
 }
+/* ===== PROJECTS =====*/
 .pro__subtitle{
   margin-top: 15px;
   margin-left:10px;
@@ -399,6 +401,7 @@ img{
 .button3:hover{
   box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }
+/* ===== ACHIEVEMENTS =====*/
 .button4{
   display: inline-block;
   background-color: var(--first-color);
@@ -413,6 +416,7 @@ img{
 .button4:hover{
   box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }
+
 .achieve1
 {
   width: 300px;
@@ -434,7 +438,9 @@ img{
   text-align: center;
   margin-top: 42px;
 }
-.contact__input{
+/* ===== CONTACT =====*/
+.contact__input
+{
   width: 100%;
   font-size: var(--normal-font-size);
   font-weight: var(--font-semi);
@@ -473,6 +479,8 @@ img{
   color: #fff;
   margin: 0 var(--mb-2)
 }
+
+/* ===== Responsive =====*/
 @media screen and (max-width: 765px)
 {
   .home__img
