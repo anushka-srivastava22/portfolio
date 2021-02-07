@@ -473,12 +473,12 @@ img{
   color: #fff;
   margin: 0 var(--mb-2)
 }
-@media screen and (max-width: 760px)
+@media screen and (max-width: 765px)
 {
   .home__img
   {
      width: 100px;
-     margin-top: 180px;
+     margin-top: 166px;
   }
 }
 @media screen and (min-width: 768px){
