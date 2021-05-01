@@ -145,7 +145,7 @@ img{
 }
 .nav__link{
   position: relative;
-  color: rgb(10, 6, 6);
+  color: white;
 }
 .nav__link:hover{
   position: relative;
@@ -160,7 +160,7 @@ img{
   background-color: var(--first-color);
 }
 .nav__logo{
-  color: var(--second-color);
+  color: white;
 }
 .nav__toggle{
   color: var(--second-color);
@@ -402,7 +402,8 @@ img{
   box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }
 /* ===== ACHIEVEMENTS =====*/
-.button4{
+.button4
+{
   display: inline-block;
   background-color: var(--first-color);
   color: #fff;
@@ -413,10 +414,42 @@ img{
   margin-left: 40px;
   
 }
-.button4:hover{
+.button4:hover
+{
   box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }
-
+.button5
+{
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #fff;
+  padding: .75rem 2.5rem;
+  font-weight: var(--font-semi);
+  border-radius: .5rem;
+  margin-top: 12px;
+  margin-left: 40px;
+  
+}
+.button5:hover
+{
+  box-shadow: 0 10px 36px rgba(0,0,0,.15);
+}
+.button6
+{
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #fff;
+  padding: .75rem 2.5rem;
+  font-weight: var(--font-semi);
+  border-radius: .5rem;
+  margin-top: 0.2rem;
+  margin-left: 40px;
+  
+}
+.button6:hover
+{
+  box-shadow: 0 10px 36px rgba(0,0,0,.15);
+}
 .achieve1
 {
   width: 300px;
@@ -433,6 +466,7 @@ img{
     box-shadow: 0 0 0 0 #00008b;
     
 }
+
 .achieve__title
 {
   text-align: center;
@@ -529,7 +563,7 @@ img{
     }
     .nav__link
     {
-      color: var(--second-color);
+      color: white;
     }
   
     .home

@@ -77,7 +77,10 @@ sr.reveal('.achieve1',{ delay: 400});
 sr.reveal('.achieve__title',{delay: 400}); 
 sr.reveal('.button4',{delay: 400}); 
 sr.reveal('.ip1',{delay: 400}); 
-sr.reveal('.button3',{delay: 200}); 
+sr.reveal('.button3',{delay: 200});
+sr.reveal('.button4',{delay: 200});
+sr.reveal('.button5',{delay: 200});
+sr.reveal('.button6',{delay: 200}); 
 
 /*SCROLL CONTACT*/
 sr.reveal('.contact__input',{interval: 200}); 
