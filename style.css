@@ -217,6 +217,7 @@ img{
   margin-top: 45px;
   width: 295px;
 }
+
 .button{
   display: inline-block;
   background-color: var(--first-color);
@@ -250,6 +251,16 @@ img{
   margin-bottom: 20px;
 }
 .w2
+{
+  display: flex;
+  margin-bottom: 20px;
+}
+.w3
+{
+  display: flex;
+  margin-bottom: 20px;
+}
+.w4
 {
   display: flex;
   margin-bottom: 20px;
@@ -520,8 +531,10 @@ img{
   .home__img
   {
      width: 100px;
+     
      margin-top: 166px;
   }
+  
 }
 @media screen and (min-width: 768px){
     body
@@ -645,6 +658,12 @@ img{
         
     }
     .p2
+    {
+      display: flex;
+      justify-content: space-around;
+      
+    }
+    .p3
     {
       display: flex;
       justify-content: space-around;
