@@ -631,7 +631,12 @@ img{
       justify-content: space-around;
       
     }
-    
+    .q4 .course_container3
+    {
+      display: flex;
+      justify-content: space-around;
+      
+    }
     .skill1
     {
       display: flex;
