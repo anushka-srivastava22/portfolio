@@ -674,6 +674,12 @@ img{
       justify-content: space-around;
       
     }
+    .p4
+    {
+      display: flex;
+      justify-content: space-around;
+      
+    }
     .ip1
     {
       width: 700px;
