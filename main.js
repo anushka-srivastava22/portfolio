@@ -47,6 +47,9 @@ sr.reveal('.about__text',{delay: 400});
 /*SCROLL WORK*/
 sr.reveal('.w1',{delay: 200});
 sr.reveal('.w2',{delay: 200});
+sr.reveal('.w3',{delay: 200});
+sr.reveal('.w4',{delay: 200});
+sr.reveal('.w5',{delay: 200});
 sr.reveal('.work__subtitle',{delay: 400}); 
 sr.reveal('.work__text',{delay: 400});
 sr.reveal('.button1',{delay: 200});

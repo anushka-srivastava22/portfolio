@@ -265,6 +265,11 @@ img{
   display: flex;
   margin-bottom: 20px;
 }
+.w5
+{
+  display: flex;
+  margin-bottom: 20px;
+}
 .work__subtitle{
   margin-bottom: var(--mb-2);
   margin-left:10px;
@@ -409,6 +414,7 @@ img{
   margin-left: 40px;
   
 }
+
 .button3:hover{
   box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }
